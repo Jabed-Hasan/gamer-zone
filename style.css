@@ -191,9 +191,10 @@ nav li a {
     background: #F948B2;
     color: #fff;
     border: 0;
-    
+
 }
-.header-btn-2{
+
+.header-btn-2 {
     display: inline-flex;
     padding: 19px 35px;
     align-items: flex-start;
@@ -318,6 +319,125 @@ nav li a {
 
 }
 
-.btn1:hover {
-    border: 1px solid #F948B2;
+
+/* Card section */
+.cards{
+    height: 650px;
+    
+}
+
+.card-heading {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card-heading-color {
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card-paragraph {
+
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+.card-box{
+
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+    height: 60px;
+    gap: 20px;
+    margin-left: 600px;
+
+    
+
+
+}
+
+/* footer */
+
+
+footer {
+    height: 550px;
+    background-color: rgba(11, 2, 35, 1);
+    margin-top: 130px;
+
+}
+
+.footer-list {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 50px;
+    padding-left: 280px;
+    padding-top: 30px;
+}
+
+.footer-logo-color {
+    color: #FFF;
+}
+
+.footer-logo {
+    padding-left: 530px;
+    padding-top: 100px;
+}
+
+.icons {
+    display: flex;
+
+    gap: 30px;
+    width: 40px;
+    height: 40px;
+    padding-top: 50px;
+    padding-left: 550px;
+
+
+}
+
+.footer-list2 {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+footer>p {
+
+    color: rgba(255, 255, 255, 0.60);
+    padding-top: 20px;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
