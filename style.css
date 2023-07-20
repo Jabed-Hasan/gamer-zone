@@ -29,8 +29,8 @@ header {
     background: #FFF;
     padding: 30px 100px;
     align-items: center;
-    box-shadow: #0B0223;
-    border: 1px solid tomato;
+    box-shadow: #424242;
+
 
 }
 
@@ -77,9 +77,9 @@ nav {
     cursor: pointer;
 }
 
-.nav-btn:hover {
+/* .nav-btn:hover {
     border: 1px solid #0B0223;
-}
+} */
 
 .nav-btn-text {
     color: #3C354F;
@@ -255,24 +255,71 @@ nav li a {
 }
 
 .pic-1 {
-    width: 450px;
-    height: 500px;
+    width: 400px;
+    height: 450px;
     border-radius: 8px;
     margin-left: 0px;
     padding-left: 290px;
 }
 
 .pic-2 {
-    width: 210px;
-    height: 280px;
+    width: 190px;
+    height: 230px;
     border-radius: 8px;
     border: 0px solid #FFF;
     position: relative;
     bottom: 200px;
-    margin-left: 190px;
+    margin-left: 200px;
 }
 
 .pic-2:hover {}
+
+
+
+
+
+/* 
+.Rectangle-father{
+    height: 450px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    margin-bottom: 130px;
+    
+}
+.Rectangle{
+    background-color: white;
+    display: flex;
+
+    width: 210px;
+    height: 70px;
+    border-radius:50px ;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    
+
+}
+
+
+.Rectangle-items{
+     
+}
+.Rectangle > p{
+    color: rgb(61, 61, 61);
+    margin-left: 10px;
+}
+.Rectangle > img{
+   margin-left: 10px;
+}
+
+ */
+
+
+
+
+
+
+
 
 
 
@@ -364,7 +411,7 @@ nav li a {
 
 .text {
 
-    color:#FF42A5;
+    color: #FF42A5;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
@@ -373,7 +420,7 @@ nav li a {
 
 .peragraph {
     width: 250px;
-    margin-top:10px ;
+    margin-top: 10px;
 }
 
 
@@ -510,6 +557,158 @@ footer>p {
 
 /* Responsive Section */
 
-@media screen and  {
-    
+@media screen and (max-width: 425px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav li a {
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    nav .logo-text {
+        font-size: 30px;
+    }
+
+    .nav-btn-text {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .nav-btn {
+        margin: 30px 0px;
+        padding: 15px;
+    }
+
+    .logo>img {
+        height: 30px;
+        width: 80px;
+    }
+
+    .banner-img {
+        width: 100%;
+    }
+
+    .header-content {
+        padding: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .card-box {
+
+        flex-wrap: wrap;
+        gap: 60px;
+    }
+
+
+    .banner-img {
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .header-content-text1 {
+        font-size: 30px;
+    }
+
+    .header-content-text2 {
+        font-size: 65px;
+    }
+
+    .inner-text {
+        margin-left: 100px;
+    }
+
+    .header-content-button {
+        margin-left: 80px;
+        gap: 20px;
+    }
+
+    .b-container {
+        margin-top: 20px;
+    }
+
+    .cowboy-text {
+        text-align: center;
+        font-size: 30px;
+        width: 250px;
+        margin-left: 80px;
+    }
+
+    .cowboy-description {
+        width: 300px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .cowboy-img{
+        width: 0px;
+    }
+
+    .container {
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+    }
+
+    .pic-1 {
+        width: 250px;
+        height: 250px;
+        padding-left: 10px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .pic-2 {
+        width: 99px;
+        height: 130px;
+        bottom: 100px;
+        margin-left: 80px;
+    }
+
+    .footer-list {
+        grid-template-columns: repeat(3,1fr);
+        color: #FFF;
+        font-size: 14px;
+        display: grid;
+        gap: 10px;
+        padding-left: 50px;
+        padding-top: 30px;
+        margin-right: 80px;
+      
+
+    }
+    .footer-logo {
+        padding-left: 130px;
+        padding-top: 100px;
+    }
+    .logo>img {
+        height: 19px;
+        width: 50px;
+    }
+    .logo-text{
+        font-size: 25px;
+    }
+
+    .footer-list2{
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .btn-row1{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .btn-row2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image-buttons{
+        padding-bottom: 400px;
+     
+    }
 }
